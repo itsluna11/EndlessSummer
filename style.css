@@ -1,0 +1,20 @@
+body {
+    color:#095241;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+    
+}
+h1, h2 {
+    color:#035751;
+    text-align: center
+}
+body,head{
+    background-color:#a0b497
+}
+a {
+    color:#367c7c;
+}
+
+.indexheader{
+    color:#087125
+}
