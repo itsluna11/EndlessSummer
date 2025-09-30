@@ -11,7 +11,7 @@ body {
     
 }
 h1, h2 {
-    color:#035751;
+    color:#333634;
     text-align: center
 }
 body,head{
@@ -22,7 +22,7 @@ a {
 }
 
 .indexheader{
-    color:#087125
+    color:#333634
 }
 
 .banner {
@@ -33,7 +33,7 @@ a {
     border-color: #608e60;
     border-radius: 8px;
     
-    width: 95%;
+    width: 99%;
     
     padding: 16px;
     margin: 12px;
@@ -49,3 +49,11 @@ a {
     float: center;
     margin-right: 12px;
 }
+.element {
+    max-width: 800px;
+    background-color:#488b5d;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+    
