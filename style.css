@@ -1,5 +1,11 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 body {
-    color:#095241;
+    color:#ffffff;
     text-align: center;
     font-family: 'Courier New', Courier, monospace
     
@@ -12,9 +18,34 @@ body,head{
     background-color:#a0b497
 }
 a {
-    color:#367c7c;
+    color:#ffffff;
 }
 
 .indexheader{
     color:#087125
+}
+
+.banner {
+    background-color:#608e60;
+    
+    border-width: 5px;
+    border-style: solid;
+    border-color: #608e60;
+    border-radius: 8px;
+    
+    width: 95%;
+    
+    padding: 16px;
+    margin: 12px;
+
+}
+.avatar {
+    width: 64px;
+    height: 64px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    float: center;
+    margin-right: 12px;
 }
