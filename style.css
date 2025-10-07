@@ -71,9 +71,8 @@ a {
     background-color:#0f5d21;
     border: 2px dashed #0c5709;
     
-    display: inline-block;
-    width:150px;
-    margin:10px;
+
+
     padding: 10px;
     height: 70px;
     vertical-align: middle;
@@ -82,19 +81,24 @@ a {
 
 /*default - mobile/phone */
 .navbutton{
-    
+    width:100%;
+    margin:-2px
 }
 
 /*tablet and up*/
 @media (min-width: 830px) {
     .navbutton{
-        
+        display: inline-block;
+        width:25%;
+        margin:-4px;
     }
 }
 
 /*large desktop*/
 @media (min-width: 1200px) {
     .navbutton{
-        
+        display: inline-block;
+        width:150px;
+        margin:10px;
     }
 }
