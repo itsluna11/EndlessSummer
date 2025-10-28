@@ -5,7 +5,7 @@
 }
 
 body {
-    color: #ffffff;
+    color: #333634;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
 }
@@ -32,7 +32,7 @@ a {
 
     border-width: 5px;
     border-style: solid;
-    border-color: #608e60;
+    border-color: #587b58;
     border-radius: 8px;
 
     width: 99%;
@@ -47,7 +47,7 @@ a {
     border-radius: 50%;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-    float: center;
+    float: left;
     margin-right: 12px;
 }
 .element {
